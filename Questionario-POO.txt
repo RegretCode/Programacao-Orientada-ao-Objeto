@@ -1,0 +1,59 @@
+1. O que são modelos em Programação Orientada a Objetos? Dê um exemplo.
+
+		Carro
+Dados: modelo, marca, cor, combustivel.
+
+Operacoes: ligar, acelerar e freiar.
+
+2. Descreva, com suas próprias palavras, a operação calculaConta do modelo que representa o Restaurante Caseiro Hipotético do slide apresentado em aula.
+
+calculaConta(){
+	this.conta = kgRefeicao + kgSobremesa + refrigerante600 + refrigeranteLata + agua500 + aguaCopo + sucoLaranja + outros;
+	System.out.println("Valor da comanda: " + this.conta );
+}
+
+3. O que é princípio da abstração?
+
+O princípio da abstração é a capacidade de abstrair a complexidade de um sistema e se concentrar em apenas partes desse sistema.
+
+
+4. Quais são os quatro pilares nos quais a Programação Orientada a Objetos está sedimentada? Defina cada um deles.
+
+- Encapsulamento: É a característica da OO capaz de ocultar partes (dados e detalhes) de
+implementação interna de classes do mundo exterior.
+
+- Herança: É o mecanismo que permite a uma classe herdar todos os atributos e métodos de outra classe.
+
+- Composição: É um mecanismo de reaproveitamento (reutilização) de classes utilizado pela POO para aumentar a produtividade e a qualidade no desenvolvimento de software.
+
+- Polimorfismo: Permite que referências de tipos de classes mais abstratas representem o comportamento das classes concretas que referenciam.
+
+5. Define os termos abaixo:
+
+a. Classe: Classes são estruturas das linguagens de programação OO para conter, para determinado modelo, os dados que devem ser representados e as operações que devem ser efetuadas com estes dados.
+
+b. Atributo: Os dados contidos em uma classe são conhecidos como campos ou atributos daquela classe.
+
+c. Método: As operações contidas em uma classe são chamadas de métodos dessa classe.
+
+d. Objeto: Um objeto ou instância é uma materialização da classe. Usados para representar dados e executar operações.
+
+6. Quais dos identificadores abaixo podem ser usados como nomes de classes, atributos, métodos e variáveis em Java? Quais não podem, e por quê?
+
+a. four
+b. for - nao pode pois eh uma palavra chave q referencia um laco
+c. from
+d. 4
+e. FOR
+
+7. Quais dos identificadores abaixo podem ser usados como nomes de classes, atributos, métodos e variáveis em Java? Quais não podem, e por quê?
+
+a. dia&noite
+b. diaENoite
+c. dia & noite -nao pode pois n eh uma forma valida de nomear uma classe, atributo e etc. nao eh permitido o espacamento entre o nome da variavel.
+d. dia E noite -nao pode pois n eh uma forma valida de nomear uma classe, atributo e etc. nao eh permitido o espacamento entre o nome da variavel.
+e. dia_e_noite
+
+8. Escreva um programa que leia 5 valores inteiros e imprima a soma, a média, o máximo e o mínimo dos valores recebidos.
+
+
