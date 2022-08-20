@@ -53,7 +53,3 @@ b. diaENoite
 c. dia & noite -nao pode pois n eh uma forma valida de nomear uma classe, atributo e etc. nao eh permitido o espacamento entre o nome da variavel.
 d. dia E noite -nao pode pois n eh uma forma valida de nomear uma classe, atributo e etc. nao eh permitido o espacamento entre o nome da variavel.
 e. dia_e_noite
-
-8. Escreva um programa que leia 5 valores inteiros e imprima a soma, a média, o máximo e o mínimo dos valores recebidos.
-
-
